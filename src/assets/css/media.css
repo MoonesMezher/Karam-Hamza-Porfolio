@@ -26,6 +26,12 @@
     }
 }
 
+@media screen and (max-width: 940px) {
+    .video-container video {
+        width: 300%;
+    }
+}
+
 @media (max-width: 768px) {
     .section {
         padding: 80px 0;
@@ -81,8 +87,24 @@
 }
 
 @media screen and (max-width: 490px) {
+    .hero {
+        padding-top: 15rem;
+    }
+
+    .contact-item {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: start;
+    }
+}
+
+@media screen and (max-width: 400px) {
     .navbar .nav-container {
         flex-direction: column-reverse;
-        gap: 1rem;
+        gap: .5rem;
+    }
+
+    .video-container video {
+        width: 500%;
     }
 }

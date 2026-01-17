@@ -1,5 +1,5 @@
-/* import CustomCursor from "../components/ui/CustomCursor"
-import LoadingSpinner from "../components/ui/LoadingSpinner" */
+/* import CustomCursor from "../components/ui/CustomCursor" */
+import LoadingSpinner from "../components/ui/LoadingSpinner" 
 import ParticleBackground from "../components/ui/ParticleBackground"
 import ScrollProgress from "../components/ui/ScrollProgress"
 import Whatsapp from "../components/ui/Whatsapp"
@@ -10,7 +10,7 @@ import Header from "./Header"
 const Layout = ({ children }) => {
     return (
         <LanguageProvider>
-            {/* <LoadingSpinner/> */}
+            <LoadingSpinner/> 
             <ScrollProgress/> 
             {/* <CustomCursor /> */}
             <ParticleBackground/>

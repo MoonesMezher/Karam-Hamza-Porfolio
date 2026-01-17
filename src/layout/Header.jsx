@@ -45,6 +45,7 @@ const Header = () => {
                 <Link 
                     to="/" 
                     className="logo"
+                    title='Karam Hamza'
                 >
                     <img src={Logo} alt='Karam Hamza'/>
                 </Link>
@@ -93,7 +94,7 @@ const Header = () => {
                     </Link>
                 </div>
                 
-                <div className="language-switcher">
+                <div className="language-switcher" dir='ltr'>
                     <button 
                         className={`lang-btn ${lang === 'ar' ? 'active' : ''}`}
                         onClick={() => setLang('ar')}
