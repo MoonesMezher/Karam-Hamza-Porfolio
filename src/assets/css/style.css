@@ -311,6 +311,7 @@
 
 .hero-text {
     animation: fadeInUp 1s var(--transition-slow) 0.5s both;
+    order: 1;
 }
 
 .hero-title {
