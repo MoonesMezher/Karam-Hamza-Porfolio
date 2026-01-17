@@ -1,0 +1,30 @@
+/* ===== RTL/LTR ADJUSTMENTS ===== */
+body[dir="ltr"] .experience-list li::before {
+    right: auto;
+    left: -15px;
+}
+
+body[dir="ltr"] .contact-icon {
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+body[dir="ltr"] .solution-box {
+    border-right: none;
+    border-left: 4px solid var(--accent);
+}
+
+body[dir="ltr"] .language-switcher {
+    left: auto;
+    right: 25px;
+}
+
+body[dir="ltr"] .nav-link::before {
+    right: auto;
+    left: 0;
+}
+
+body[dir="ltr"] .logo::after {
+    right: auto;
+    left: 0;
+}
