@@ -16,7 +16,7 @@ const App = () => {
       delay: 100,
     });
   }, []);
-  
+
   return (
     <Layout>
       <Routes>
