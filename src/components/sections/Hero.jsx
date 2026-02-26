@@ -1,5 +1,5 @@
 import { useContent } from '../../hooks/useContent';
-import Image from "/public/Karam Hamza.jpeg"
+import Image from "../../assets/images/bg.jpg"
 
 const Hero = () => {
     const { content } = useContent();
